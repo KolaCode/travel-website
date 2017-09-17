@@ -1091,7 +1091,7 @@ a {
         font-weight: 200;
     }
 
-@media (min-width: 530px) {
+@media (min-width: 800px) {
 
 .site-footer__text {
             display: inline;
