@@ -1,6 +1,0 @@
-{{#shapes}}
-    .icon--{{base}} {
-        width: {{width.outer}}px;
-        height: {{height.outer}}px;
-    }
-{{/shapes}}
