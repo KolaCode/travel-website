@@ -94,19 +94,19 @@
             }
 
     /* Begin Equal Height Rules */
-    &--equal-height-at-medium {
+    .flexbox &--equal-height-at-medium {
         @mixin atMedium {
             display: flex;
         }
 
-    & > div {
-        float: none;
-        display: flex;
-    }
+        & > div {
+            float: none;
+            display: flex;
+        }
 
     }
 
-    &--equal-height-at-large {
+    .flexbox &--equal-height-at-large {
         @mixin atLarge {
             display: flex;
         }
